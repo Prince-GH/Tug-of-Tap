@@ -1,6 +1,6 @@
 # ![Game Logo](media/logo.png) Tug of Tap 🎮
 
-**Tug of Tap** is a fun and engaging **two-player mobile game** where players compete to win by quick reflexes and strategy. It's designed to give an immersive and exciting experience for mobile users.
+**Tug of Tap** 🎮 is a fun and engaging **two-player mobile game** 👫 where players compete to win 🏆 by quick reflexes ⚡ and smart strategy 🧠. It's designed to give an **immersive and exciting experience** 🌟 for mobile users 📱.
 
 ---
 
