@@ -6,10 +6,10 @@ const resetBtn = document.getElementById("reset-btn");
 const muteBtn = document.getElementById("mute-btn");
 
 
-let topPosition = 25; // start middle
+let topPosition = 38; // start middle
 const step = 3;
 const minTop = 0;
-const maxTop = 50;
+const maxTop = 80;
 let musicStarted = false;
 let isMuted = false;
 
@@ -50,7 +50,7 @@ function showWinner(text, color, rotate = 0) {
   setTimeout(() => {
     flash.classList.remove("show");
     winnerText.style.display = "none";
-    topPosition = 25;
+    topPosition = 40;
     bar.style.top = topPosition + "vh";
   }, 2000);
 }
@@ -103,7 +103,7 @@ document.addEventListener("touchstart", (e) => {
 
 // Reset button
 resetBtn.addEventListener("click", () => {
-  topPosition = 25;
+  topPosition = 38;
   bar.style.top = topPosition + "vh";
   winnerText.style.display = "none";
   flash.style.display = "none";

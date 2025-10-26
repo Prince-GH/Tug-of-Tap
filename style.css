@@ -43,14 +43,15 @@ body {
 /* Bar */
 .bar {
   position: absolute;
-  left: 0;
-  width: 100%;
-  height: 50vh;
-  background: rgba(255, 255, 255, 0.219);
+  left: 2.5%;
+  width: 95%;
+  height: 20vh;
+  background: rgba(255, 255, 255, 0.226);
   backdrop-filter: blur(3px);
-  top: 25vh;
+  top: 40vh;
   border-radius: 25px;
   transition: top 0.1s ease-out;
+  box-shadow: inset -3px -4px 30px rgba(255, 255, 255, 0.712);  
 }
 
 /* Winner Text */
@@ -59,7 +60,7 @@ body {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.432);
   color: #111;
   padding: 10px 25px;
   border-radius: 12px;
@@ -70,7 +71,7 @@ body {
   justify-content: center;
   display: none;
   z-index: 20;
-  box-shadow: 0 0 20px rgba(255,255,255,0.5);
+  box-shadow: inset 0 0 20px rgba(255,255,255,0.5);
 }
 
 /* Flash overlay */
@@ -137,6 +138,7 @@ body {
   justify-content: center;
   transition: background 0.3s ease, transform 0.2s ease;
   animation: spin 6s linear infinite; /* optional, for reset btn only if you want */
+  box-shadow: inset -2px -2px 10px rgba(255, 255, 255, 0.637) ;
 }
 
 /* Hover effect for buttons */
